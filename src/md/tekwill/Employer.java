@@ -12,6 +12,11 @@ public class Employer {
         this.age = age;
     }
 
+    public void setAge(String age) {
+        this.age = Integer.parseInt(age);
+    }
+
+
     @Override
     public String toString() {
         return "Employer{" +
